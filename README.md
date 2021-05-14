@@ -11,7 +11,7 @@ This project is for educational purposes only.
 
 Site published at https://mramo21.github.io/9-comingsoon/
 
-Design [Sign up](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
+Design [Coming soon](https://cdn.discordapp.com/attachments/648536139677958156/651479019476221953/coming-soon-wide.png)
 
 
 ## Authors
