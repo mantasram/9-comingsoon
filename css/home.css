@@ -8,3 +8,13 @@
 @import './components/button.css';
 @import './components/button.css';
 @import './components/button.css';
+
+
+
+.bg-color-primary {
+    background-color: var(--color-primary);
+}
+
+.bg-color-secondary {
+    background-color: var(--color-secondary);
+}
