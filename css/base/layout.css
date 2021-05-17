@@ -8,13 +8,23 @@
     display: inline-block;
     width: 600px;
     margin: 0 calc(50% - 300px);
-    background-color: coral;
 }
 .row-big {
     display: inline-block;
     width: 1000px;
     margin: 0 calc(50% - 500px);
-    background-color: aqua;
+
+}
+
+.left-column {
+    float: left;
+
+    width: 50%;
+}
+.right-column {
+    float: right;
+
+    width: 40%;
 
 }
 
@@ -31,7 +41,14 @@
         width: 600px;
         margin: 0 calc(50% - 300px);
     }
-
+    .left-column {
+        width: 100%;
+    }
+    .right-column {
+        width: 100%;
+        margin-top: 50px;
+    
+    }
 }
 
 @media (max-width: 640px) {
