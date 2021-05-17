@@ -11,10 +11,10 @@
 
 
 
-.bg-color-primary {
+.bg-primary {
     background-color: var(--color-primary);
 }
 
-.bg-color-secondary {
+.bg-secondary {
     background-color: var(--color-secondary);
 }
