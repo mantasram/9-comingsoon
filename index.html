@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/png">
     <link rel="stylesheet" href="./css/home.css">
 </head>
 
 <body>
     <div class="container hero bg-primary">
-         <div class="row-small">
+        <div class="row-small">
             <img class="logo" src="./img/logo.png" alt="Logo">
             <h1 class="main-title">Coming soon</h1>
             <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ea non tempora
@@ -19,7 +20,8 @@
             <div id="clock_1" class="clock"></div>
 
             <form>
-                Subscribe form
+                <input type="text" class="subscribe-input" placeholder="Type your email">
+                <input type="button" class="subscribe-button-header" value="Subscribe now">
             </form>
             <div class="mouse">
                 Mouse
@@ -31,10 +33,27 @@
     <main class="container">
         <div class="row-big">
             <div class="left-column">
-                Left
+                <h1>ABOUT STARTUP</h1>
+                <p id="left-column-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptate voluptates provident nisi quibusdam, labore obcaecati perspiciatis culpa quisquam voluptatibus?</p>
+                <div class="progress-bar">
+                    <label for="file">UX Design</label>
+                    <progress id="file" value="90" max="100"></progress>
+                    <label for="file">Web Design</label>
+                    <progress id="file" value="86" max="100"></progress>
+                    <label for="file">Web Development:</label>
+                    <progress id="file" value="86" max="100"></progress>
+                </div>
             </div>
             <div class="right-column">
-                Right
+                <h1>HAVE ANY QUESTION?</h1>
+                <p id="right-column-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, excepturi facilis consequatur repellendus voluptates reiciendis alias quia magnam. Vitae dolor repudiandae nisi cupiditate!</p>
+                <form action="submit" id="right-form">
+                    <input type="text" placeholder="Name" id="form-input" class="name">
+                    <input type="text" placeholder="Email" id="form-input" class="email"> 
+                    <label for="Message" id="message">Message</label>
+                    <input type="text" id="form-input" class="message-input">
+                    <input type="submit" value="Submit" class="form-submit">
+                </form>
             </div>
         </div>
     </main>
@@ -42,7 +61,13 @@
     <footer class="container bg-primary">
         <div class="row-big socials"></div>
         <div class="row-small bottom-texts">
-            logo + bottom
+            <img src="./img/logo-white.png" alt="logo-white" id="footer-img">
+            <div class="footer-text-belowlogo">
+                <div id="copyright-text">
+                    <p>Copyright C 2016 <span id="white-words">Matrox</span></p> | <p>All Rights Reserved</p> | <p>Designed By <span id="white-words">TrendyTheme</span></p>
+                </div>
+                <p id="text-under-copyright">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic incidunt maiores illo distinctio aliquid. Hic, a culpa iusto voluptas ab possimus commodi vitae aliquam.</p>
+            </div>
         </div>
     </footer>
 
