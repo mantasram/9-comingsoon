@@ -62,6 +62,7 @@
     margin-top: 40px;
     width: 450px;
     border: none;
+    outline: none;
     background:none;
     border-bottom: 2px solid white;
     padding: 10px 0px;
@@ -140,3 +141,14 @@ footer.container {
     color: var(--color-white);
 }
 
+@media (max-width:640px) {
+    #copyright-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    white-space: normal;
+    gap:0;
+    margin-top: 30px;
+    color: var(--color-transparent-grey);
+}
+}
