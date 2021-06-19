@@ -1,7 +1,7 @@
 class Clock {
     constructor(selector, targetDate) {
         this.selector = selector;
-        this.targetDate = targetDate
+        this.targetDate = targetDate;
 
         this.DOM = null;
         this.allValuesDOM = null;
@@ -59,20 +59,20 @@ class Clock {
         let numanomosMilisekundes = numanomasLaikas.getTime();
 
         if (dabartinesMilisekundes > numanomosMilisekundes) {
-         numanomaGimtadienioData = (einamiejiMetai+1) + '-' + this.targetDate;
-         numanomasLaikas = new Date(numanomaGimtadienioData);
-         numanomosMilisekundes = numanomasLaikas.getTime();
+            numanomaGimtadienioData = (einamiejiMetai + 1) + '-' + this.targetDate;
+            numanomasLaikas = new Date(numanomaGimtadienioData);
+            numanomosMilisekundes = numanomasLaikas.getTime();
 
         }
 
         const likusiosMilisekundes = numanomosMilisekundes - dabartinesMilisekundes;
-        let likusiosSekundes = Math.floor(likusiosMilisekundes/ 1000);
-    
+        let likusiosSekundes = Math.floor(likusiosMilisekundes / 1000);
 
 
-        const dienos = Math.floor(likusiosSekundes / 60 / 60 /24);
+
+        const dienos = Math.floor(likusiosSekundes / 60 / 60 / 24);
         likusiosSekundes -= dienos * 60 * 60 * 24;
-        const valandos = Math.floor(likusiosSekundes / 60 /60);
+        const valandos = Math.floor(likusiosSekundes / 60 / 60);
         likusiosSekundes -= valandos * 60 * 60;
         const minutes = Math.floor(likusiosSekundes / 60);
         likusiosSekundes -= minutes * 60;
@@ -81,11 +81,11 @@ class Clock {
 
     }
 
-    updateClock(){
+    updateClock() {
         setInterval(() => {
             const timeValues = this.formatTime(this.calcDeadline());
-            for (let i=0; i<4; i++) {
-                this.allValuesDOM[i].innerText = timeValues[i] 
+            for (let i = 0; i < 4; i++) {
+                this.allValuesDOM[i].innerText = timeValues[i]
             }
         }, 1000)
     }
