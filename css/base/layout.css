@@ -37,50 +37,6 @@
   color: var(--color-secondary);
 }
 
-#right-form {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 400px;
-  margin-top: 40px;
-  color: var(--color-transparent-grey);
-}
-#form-input {
-  outline: none;
-  border: none;
-  border-bottom: 2px solid grey;
-}
-
-.name {
-  width: 48%;
-  padding: 10px 0px;
-}
-.email {
-  width: 48%;
-  padding: 10px 0px;
-}
-#message {
-  color: var(--color-grey);
-  font-size: 14px;
-  margin-top: 50px;
-}
-.message-input {
-  justify-content: flex-end;
-  width: 100%;
-  margin-top: 10px;
-  padding: 10px 0px;
-}
-.form-submit {
-  margin-left: auto;
-  margin-top: 50px;
-  border: none;
-  padding: 10px 25px;
-  border-radius: 3px;
-  color: var(--color-white);
-  background-color: var(--color-secondary);
-  cursor: pointer;
-}
-
 #left-column-text {
   margin-top: 30px;
   line-height: 1, 7;
@@ -89,47 +45,6 @@
 #left-column-text > a {
   color: var(--color-secondary);
   text-decoration: none;
-}
-.progress-bar {
-  margin-top: 40px;
-  gap: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-}
-
-.progressBarContainer {
-  position: relative;
-  height: 3px;
-  padding: 3px;
-  border-radius: 20px;
-  background: rgb(224, 224, 224);
-  width: 100%;
-}
-
-#progressBarIn {
-  display: inline-block;
-  height: 3px;
-  padding: 3px;
-  border-radius: 20px;
-  background: var(--color-primary);
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.progress-bar-text {
-  color: var(--color-grey);
-}
-
-.progress-bar-number {
-    display: block;
-    float:right;
-    margin-top: -40px;
-    padding-left: 30px;
-    position: relative;
-    right: -28px;
-    color: var(--color-grey);
 }
 
 @media (max-width: 1100px) {
@@ -166,5 +81,4 @@
     width: 100%;
     margin: 0;
   }
-
 }

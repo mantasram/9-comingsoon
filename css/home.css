@@ -78,22 +78,6 @@ footer.container {
   padding-top: 0;
 }
 
-#footerButton {
-  background-color: var(--color-secondary);
-  border: none;
-  color: var(--color-white);
-  width: 50px;
-  height: 50px;
-  font-size: 20px;
-  outline-style: none;
-  border-radius: 100px;
-  cursor: pointer;
-  box-shadow: 0 0 3px gray;
-  position: relative;
-  left: 75.5%;
-  bottom: 5%;
-}
-
 .socials {
   display: flex;
   padding: 20px;
