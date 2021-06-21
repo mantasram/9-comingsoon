@@ -6,7 +6,7 @@ function progress(selector, data) {
         HTML += `  <p class="progress-bar-text">${progress.content}</p>
                     <div class="progressBarContainer">
                         <p class="progress-bar-number">${progress.width}</p>
-                        <span id="progressBarIn" style="width: ${progress.width};">
+                        <span class="progressBarIn" style="width: ${progress.width};">
                         </span>
                     </div>`;
 
