@@ -1,3 +1,25 @@
+.subscribe-button-header {
+  border: none;
+  padding: 10px 25px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 3px;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  cursor: pointer;
+}
+
+.form-submit {
+  margin-left: auto;
+  margin-top: 50px;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 3px;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  cursor: pointer;
+}
 
 #footerButton {
   background-color: var(--color-secondary);
@@ -15,10 +37,9 @@
   bottom: 19.5%;
 }
 
-
 @media (max-width: 436px) {
-#footerButton {
-left: 85%;
-bottom: 28%
-    }
+  #footerButton {
+    left: 85%;
+    bottom: 28%;
+  }
 }

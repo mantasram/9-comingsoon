@@ -4,7 +4,7 @@ import { socialsData } from "./data/socialsData.js";
 import { socials } from "./socials/socials.js";
 import { scrollToTop } from "./footer/footerButton.js";
 import { progressbarData } from "./data/progressbarData.js";
-import { progress } from "./progress-bar/ProgressBar.js";
+import { progress } from "./progress-bar/progressBar.js";
 
 
 new Clock('#clock_1', clockData);
