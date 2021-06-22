@@ -8,6 +8,7 @@
   color: var(--color-white);
   background-color: var(--color-secondary);
   cursor: pointer;
+   box-shadow: 0 0 3px gray;
 }
 
 .form-submit {
@@ -19,6 +20,7 @@
   color: var(--color-white);
   background-color: var(--color-secondary);
   cursor: pointer;
+   box-shadow: 0 0 3px gray;
 }
 
 #footerButton {
