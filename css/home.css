@@ -67,6 +67,7 @@
 
 footer.container {
   padding-top: 0;
+  position: relative;
 }
 
 .socials {
