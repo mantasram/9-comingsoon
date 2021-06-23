@@ -41,6 +41,7 @@
 
 @media (max-width: 600px) {
   #footerButton {
+    display: none;
     left: 75%;
     top: -5%;
   }
