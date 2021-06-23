@@ -24,7 +24,6 @@
   position: absolute;
   top: 0;
   left: 0;
-
 }
 
 .progress-bar-ani {
@@ -37,15 +36,16 @@
 }
 
 .progress-bar-number {
-    display: block;
-    float:right;
-    margin-top: -40px;
-    padding-left: 30px;
-    color: var(--color-grey);
+  display: block;
+  float: right;
+  margin-top: -40px;
+  padding-left: 30px;
+  color: var(--color-grey);
 }
 
 @keyframes progresas {
-  0% { width: 0;
+  0% {
+    width: 0;
   }
   100% {
   }

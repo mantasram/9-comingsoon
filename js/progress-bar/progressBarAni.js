@@ -1,6 +1,6 @@
 const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-        const progress = entry.target.querySelector('.progressBarIn');
+        const progress = document.querySelector('.progressBarIn');
 
         if (entry.isIntersecting) {
             progress.classList.add('progress-bar-ani');
@@ -10,4 +10,5 @@ const observer = new IntersectionObserver(entries => {
     });
 });
 
-observer.observe(document.querySelector('.progressBarContainer'));
+
+observer.observe(document.querySelector('.left-column'));

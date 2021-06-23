@@ -64,20 +64,10 @@
   color: var(--color-white);
 }
 
-.subscribe-button-header {
-  border: none;
-  padding: 10px 25px;
-  margin-top: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
-  border-radius: 3px;
-  color: var(--color-white);
-  background-color: var(--color-secondary);
-  cursor: pointer;
-}
 
 footer.container {
   padding-top: 0;
+  position: relative;
 }
 
 .socials {
