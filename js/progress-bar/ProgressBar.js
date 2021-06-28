@@ -16,4 +16,12 @@ function progress(selector, data) {
 }
 
 
+class Progressbar {
+    constructor(selector, data){
+        this.selector = selector
+        this.data = data
+    }
+}
+
+
 export { progress }

@@ -1,4 +1,6 @@
 import { Clock } from "./clock/Clock.js";
+import { Form } from "./form/Form.js"
+import { Toast } from "./toast/Toast.js";
 import { clockData } from "./data/clockData.js";
 import { socialsData } from "./data/socialsData.js";
 import { socials } from "./socials/socials.js";
@@ -7,10 +9,15 @@ import { progressbarData } from "./data/progressbarData.js";
 import { progress } from "./progress-bar/progressBar.js";
 
 
+
+const toast = new Toast;
+
 new Clock('#clock_1', clockData);
 socials('footer .socials', socialsData);
 scrollToTop();
 progress('.progress-bar', progressbarData);
+new Form('.hero form');
+new Form('main form');
 
 /*let count = 0;
 const timer1 = setInterval(() => {

@@ -20,8 +20,8 @@
             <div id="clock_1" class="clock"></div>
 
             <form>
-                <input type="text" class="subscribe-input" placeholder="Type your email">
-                <input type="button" class="subscribe-button-header" value="Subscribe now">
+                <input data-validation="email" type="text" class="subscribe-input" placeholder="Type your email" required>
+                <button class="subscribe-button-header" value="Subscribe now" type="submit" required>Subscribe now</button>
             </form>
             <div class="mouse">
                 <div class="mouse-inside"></div>
@@ -41,11 +41,11 @@
                 <h1>HAVE ANY QUESTION?</h1>
                 <p id="right-column-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam, excepturi facilis consequatur <a href="mailto:person@mail.xyz">person@mail.xyz</a> repellendus voluptates reiciendis alias quia magnam. Vitae dolor repudiandae nisi cupiditate!</p>
                 <form action="submit" id="right-form">
-                    <input type="text" placeholder="Name" id="form-input" class="name">
-                    <input type="text" placeholder="Email" id="form-input" class="email">
+                    <input data-validation="name" type="text" placeholder="Name" id="form-input" class="name" required>
+                    <input data-validation="email" type="text" placeholder="Email" id="form-input" class="email" required>
                     <label for="Message" id="message">Message</label>
-                    <textarea id="form-input" class="message-input"></textarea>
-                    <input type="submit" value="Submit" class="form-submit">
+                    <textarea data-validation="text" id="form-input" class="message-input" required></textarea>
+                    <button type="submit" value="Submit" class="form-submit">Submit</button>
                 </form>
             </div>
         </div>
