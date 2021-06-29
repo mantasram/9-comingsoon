@@ -9,8 +9,16 @@ import { progressbarData } from "./data/progressbarData.js";
 import { progress } from "./progress-bar/progressBar.js";
 
 
-
+// EXECUTION
 const toast = new Toast;
+// toast.success('Tau pavyko!');
+// toast.info('Pranesame apie si bei ta!');
+// toast.warning('Tu cia ziurek..!');
+
+// toast.error('Yra klaida!', 'Nauja antraste');
+toast.error('Yra klaida!');
+// toast.error();
+
 
 new Clock('#clock_1', clockData);
 socials('footer .socials', socialsData);
